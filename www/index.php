@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form action="" method="post">
+    <form action="process_form.php" method="post">
         <div class="form-group">
             <label for="name">voornaam</label>
             <input type="text" name="" id="name">
@@ -44,6 +44,7 @@
             <label for="land">land</label>
             <input type="text" name="" id="land">
         </div>
+        <button type="submit">Sla op</button>
     </form>
 </body>
 
