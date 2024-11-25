@@ -29,4 +29,10 @@ input {
 
 body {
     margin: 0px;
+    background-color: goldenrod;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
 }

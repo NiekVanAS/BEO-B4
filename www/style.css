@@ -16,6 +16,37 @@ input {
     margin: 5px 0px;
 }
 
-body{
+.colum {
+    margin: 0px 5px;
+    padding: 3px;
+    border-style: solid;
+}
+
+.container {
+    display: flex;
+
+}
+
+body {
+    margin: 0px;
     background-color: goldenrod;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input:focus {
+    border-color: blue;
+    background-color: lightblue;
+    transform: scale(1.1);
+}
+    
+button:hover {
+    background-color: #a9fffb;
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    cursor: pointer;
 }
